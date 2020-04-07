@@ -10,10 +10,10 @@ import "./SignIn.scss";
 class SignIn extends Component {
   state = {
     email: "",
-    password: ""
+    password: "",
   };
 
-  handleSubmit = async event => {
+  handleSubmit = async (event) => {
     event.preventDefault();
 
     const { email, password } = this.state;
@@ -26,7 +26,7 @@ class SignIn extends Component {
     }
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     const { value, name } = event.target;
 
     this.setState({ [name]: value });
@@ -59,7 +59,7 @@ class SignIn extends Component {
           <div className="buttons">
             <Button type="submit ">Sign in</Button>
             <Button onClick={signInWithGoogle} isGoogleSignIn>
-              Sign in with Google <i className="fab fa-google"></i>
+              Sign in with Google
             </Button>
           </div>
         </form>
