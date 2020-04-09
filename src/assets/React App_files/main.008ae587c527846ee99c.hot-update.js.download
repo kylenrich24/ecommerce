@@ -1,0 +1,69 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/pages/shop/Shop.jsx":
+/*!*********************************!*\
+  !*** ./src/pages/shop/Shop.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_collections_overview_CollectionsOverview__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/collections-overview/CollectionsOverview */ "./src/components/collections-overview/CollectionsOverview.jsx");
+/* harmony import */ var _category_Category__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../category/Category */ "./src/pages/category/Category.jsx");
+var _jsxFileName = "C:\\Users\\kylen\\Desktop\\ecommerce\\src\\pages\\shop\\Shop.jsx";
+
+
+
+
+
+const Shop = ({
+  match
+}) => {
+  console.log(match);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "shop-page",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: `${match.path}`,
+    component: _category_Category__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: `${match.path}/:category`,
+    component: _category_Category__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  }));
+}; // const Shop = ({ match }) => (
+//   <div className="shop-page">
+//     <Route exact path={`${match.path}`} component={CollectionsOverview} />
+//     <Route path={`${match.path}/:collectionId`} component={Category} />
+//   </div>
+// );
+
+
+/* harmony default export */ __webpack_exports__["default"] = (Shop);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.008ae587c527846ee99c.hot-update.js.map
